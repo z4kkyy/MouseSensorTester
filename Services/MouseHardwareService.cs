@@ -67,7 +67,6 @@ namespace MouseSensorTest.Services
 					SampleRate = deviceInfo.u.mouse.dwSampleRate,
 					HasHorizontalWheel = deviceInfo.u.mouse.fHasHorizontalWheel
 				};
-
 			}
 			finally
 			{

@@ -13,7 +13,7 @@ namespace MouseSensorTest.Forms
 		private bool enableTrail = false;
 		private List<Point> cursorTrail = new();
 		private const int MAX_TRAIL_LENGTH = 100;
-
+		
 		public MainForm()
 		{
 			InitializeComponent();
@@ -180,6 +180,10 @@ namespace MouseSensorTest.Forms
 					cursorTrail.Clear();
 					break;
 			}
+		}
+		private void MainForm_Load(object sender, EventArgs e)
+		{
+
 		}
 	}
 }

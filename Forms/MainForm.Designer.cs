@@ -30,15 +30,15 @@
 		{
 			SuspendLayout();
 			// 
-			// Form1
+			// MainForm
 			// 
 			AutoScaleDimensions = new SizeF(7F, 15F);
 			AutoScaleMode = AutoScaleMode.Font;
 			ClientSize = new Size(1231, 771);
-			Name = "Form1";
+			Name = "MainForm";
 			Text = "Mouse Sensor Test";
 			WindowState = FormWindowState.Maximized;
-			// Load += Form1_Load;
+			Load += MainForm_Load;
 			ResumeLayout(false);
 		}
 

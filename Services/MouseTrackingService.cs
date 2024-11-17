@@ -65,7 +65,7 @@ namespace MouseSensorTest.Services
 
 			var stats = new MouseStatistics
 			{
-				// 既存の統計情報
+				// Basic statistics fields
 				CurrentPosition = currentPosition,
 				TotalDistance = totalDistance,
 				CurrentSpeed = currentSpeed,
@@ -80,7 +80,7 @@ namespace MouseSensorTest.Services
 				MinJumpDistance = minJumpDistance,
 				DPI = mouseDPI,
 
-				// ハードウェア情報を追加
+				// Hardware statistics fields
 				DeviceName = deviceInfo?.DeviceName ?? "Unknown Device",
 				ButtonCount = deviceInfo?.ButtonCount ?? 0,
 				DeviceSampleRate = deviceInfo?.SampleRate ?? 0,
